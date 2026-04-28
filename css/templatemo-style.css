@@ -1348,3 +1348,40 @@ footer a:hover {
   }
 
 }
+
+/* === CUSTOM NAVBAR MENU === */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 80px;
+  transition: 0.3s;
+}
+
+.menu li a:hover {
+  color: #f4dd5b;
+}
+
+/* hilangkan hamburger */
+.menu-icon {
+  display: none !important;
+}
