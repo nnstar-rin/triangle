@@ -1385,3 +1385,7 @@ nav {
 .menu-icon {
   display: none !important;
 }
+
+body {
+  background-color: #232323;
+}
