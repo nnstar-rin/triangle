@@ -1389,3 +1389,14 @@ nav {
 body {
   background-color: #232323;
 }
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container input,
+.container textarea {
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+}
